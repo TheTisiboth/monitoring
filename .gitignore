@@ -1,0 +1,7 @@
+# Uptime Kuma data directory (contains db & sensitive configs)
+data/
+
+# Backup files
+*.tar.gz
+*.zip
+*.bak
