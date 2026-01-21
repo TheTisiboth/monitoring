@@ -11,12 +11,6 @@ services:
     restart: unless-stopped
     networks:
       - dokploy-network
-    labels:
-      - homepage.group=Services
-      - homepage.name=Uptime Kuma
-      - homepage.icon=uptime-kuma.png
-      - homepage.href=https://status.leojan.fr
-      - homepage.description=Uptime monitoring & status page
 
 networks:
   dokploy-network:
